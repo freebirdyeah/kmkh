@@ -120,7 +120,7 @@ END=$(echo "$MENU" | jq -r ".meals.\"$MEAL\".endTime")
 ITEMS=$(echo "$MENU" | jq -r ".meals.\"$MEAL\".items[]" | sed 's/^/  - /')
 
 if [[ "$STATUS" == "done" ]]; then
-    echo "Hogya $MEAL bhukkad :P"
+    echo "$MEAL time's over, is blud done gobblin?!"
     echo "Meal: $NAME"
     echo "Time: $START - $END"
     echo "Items:"
