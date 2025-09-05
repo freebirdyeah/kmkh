@@ -31,7 +31,7 @@ chmod +x khaana.sh
 **Option A - add to path:**
 ```
 mkdir -p ~/bin
-mv food.sh ~/bin/kmkh
+mv khaana.sh ~/bin/kmkh
 # Ensure ~/bin is in PATH, add to ~/.bashrc or ~/.zshrc:
 # export PATH="$HOME/bin:$PATH"
 ```
@@ -39,7 +39,7 @@ mv food.sh ~/bin/kmkh
 **Option B — alias (quick and dirty):**
 ```bash
 # Add to ~/.bashrc or ~/.zshrc:
-alias kmkh='/full/path/to/food.sh'
+alias kmkh='/full/path/to/khaana.sh'
 # then: source ~/.bashrc
 ```
 
